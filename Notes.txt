@@ -1,0 +1,11 @@
+INCLUDES:
+
+<?php include 'includes/navigation.php'; ?>
+<?php include 'includes/contact-email.php' ?>
+<?php include 'includes/group-contact-email.php' ?>
+
+
+create:
+<?php include 'includes/recipes-links.php'; ?>
+<?php include 'includes/previous-retreat-menus-links.php'; ?>
+<?php include 'includes/footer.php'; ?>

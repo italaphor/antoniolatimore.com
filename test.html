@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>PHP Default</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<style>
+  #yoga-series{
+    padding:8px;
+  }
+  #yoga-series #lower-back-series {
+    border-bottom: 2px solid #999999;
+  }
+
+  #yoga-series #pranayma-series {
+    background-color:#f4f4f4;
+    border-bottom: 2px solid #999999;
+  }
+
+  #yoga-series #series {
+    border: 1px solid #777777;
+    padding: 5px;
+    margin: 5px;
+  }
+</style>
+
+<body>
+  <div>
+    <h1>This is a default PHP page</h1>
+  </div>
+ <div>
+   <!-- start -->
+  <h1>Yoga Podcast:</h1>
+  I have created these podcasts for you to enjoy either in the comforts of your home, in the office, or while
+  traveling.
+  
+  Each series has a specific focus, providing you with a reprieve from your busy day.
+  
+  <strong>Donate at Venmo</strong><a href="https://venmo.com"> https://venmo.com</a>&nbsp;<strong>
+    @Alex-Baker-194</strong>
+  
+  <hr>
+  
+  <div id="top"></div>
+  <div id="series-nav">
+      <h3>Select a series:</h3>
+    <ul>
+      <li><a href="#lower-back-series">Lower Back Series</a></li>
+      <li><a href="#pranayma-series">Pranayma Series</a></li>
+    </ul>
+  </div>
+  
+  <hr>
+  
+  <div id="series-container" style="border:1px solid red;">
+    <div id="series-nav">
+      <div></div>
+    </div>
+     <!-- lower back serie -->
+    <div id="lower-back-series" style="border:1px solid green;">
+      <div class="series-title">
+        <h3>Lower Back Care Series</h3>
+      </div>
+      <div class="series-intro">
+        This is a 4 part series. Each series is approximately 20 - 30 minutes</div>
+      <div class="media=player">
+        <!-- lower back series playlist -->
+        [playlist ids="569,570,571,572"]
+        <!--/ lower back series playlist -->
+      </div>
+    </div>
+    <div id="back-to-top" style="text-align: right;">
+      <a href="#top">^ series menu</a>
+    </div>
+
+    <!-- pranayama series -->
+    <div id="pranayma-series" style="border:1px solid orange;">
+      <div class="series-title">
+        <h3>Pranayma Series</h3>
+      </div>
+      <div class="series-intro">
+        This is a 6 part series including an Introduction to Pranayama. Each series is approximately 20 - 30 minutes</div>
+      <div class="media=player">
+        <!-- pranayma series playlist -->
+        [playlist ids="580,581,582,579"]
+        <!--/ pranayma series playlist -->
+      </div>
+    </div>
+  </div>
+    <!-- end -->
+  </div>
+</body>
+
+</html>
