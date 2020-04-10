@@ -1,0 +1,12 @@
+html, body.homepage{height:100%}    
+body.homepage{
+    background: url(http://antoniolatimore.com/img/seard-praws-in-garlic-and-basil-1000x563.jpg) no-repeat center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height: 100%;
+    }
+    h1,h2,h3,h4,h5,h6,p,li{
+      color:white;
+    }

@@ -1,0 +1,49 @@
+    .retreatpage .jumbotron {
+        background-image: url('http://antoniolatimore.com/img/fish-leeks-tomatoes.jpg');
+        width: 100%;
+        background-size: cover;
+    }
+
+    .jumbotron h1,
+    .jumbotron p {
+        color: #fff;
+    }
+
+    ul.menu-list{
+      padding:22px;
+      margin-top: -50px;
+    }
+	ul li{
+      list-style-type: none;
+    }
+    .menu-list {
+        list-style-type: none;
+    }
+
+    .menu-list li span {
+        font-size: 22px;
+        font-weight: normal;
+    }
+
+    h1.retreat-name {
+        font-size: 40px;
+    }
+
+    h1.retreat-name span {
+        font-size: 13px;
+    }
+    h1 span.price-reservations {
+        font-size: 16px;
+    }
+    h1.menu-heading.seasonal-menu::before {
+        content:" - Seasonal Menu -" ;
+        margin-bottom: 35px;
+        font-size: 33px;
+    }
+
+    .menu-list li{
+      line-height: 28px;
+    }
+    span.sidenote{
+      font-size:14px;
+    }

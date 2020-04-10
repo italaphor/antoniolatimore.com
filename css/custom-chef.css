@@ -1,0 +1,283 @@
+
+
+body {
+    background-color: #fff;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #888;
+	font-weight: 100
+}
+
+/*presets*/
+.strong{
+    font-weight: 800;
+}
+
+
+/* black theme */
+body {
+    background-color: #000;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    height: 100%;
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #888;
+	font-weight: 100
+}
+
+hr {
+    border-top: 1px solid #444;
+}
+
+/* end black theme */
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-center {
+    text-align: center;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+
+/*  nav */
+
+.navbar-inverse {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+    background-color: #080808;
+    background: rgba(0, 0, 0, .7);
+}
+
+.navbar-fixed-top {
+    border-width: 0;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #999;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+  color: #f5f5f5!important;
+}
+
+
+/* jumbotron */
+
+.homepage .jumbotron, .foodpage .jumbotron, .aboutpage .jumbotron, .contactpage .jumbotron, .main-menupage .jumbotron, .food .jumbotron {
+    min-height: 400px;
+    max-height: 500px;
+    overflow: hidden;
+    background-position: 95%;
+}
+
+.homepage .jumbotron {
+    background-image: url('http://antoniolatimore.com/img/beets-knife.jpg');
+    width: 100%;
+    background-size: cover;
+}
+
+.foodpage .jumbotron {
+    background-image: url('http://antoniolatimore.com/img/20161101_01074.jpg');
+    width: 100%;
+    background-size: cover;
+}
+
+.aboutpage .jumbotron {
+    background-image: url('http://antoniolatimore.com/img/knife-honer.jpg');
+    width: 100%;
+    background-size: cover;
+}
+
+.contactpage .jumbotron {
+    background-image: url('http://antoniolatimore.com/img/collards-onions.jpg');
+    width: 100%;
+    background-size: cover;
+}
+
+.main-menupage .jumbotron {
+    /*background-image: url('https://antoniolatimore.com/img/fish-leeks-tomatoes.jpg');*/
+    /*background-image: url('https://antoniolatimore.com/img/castiron-salmon-with-limelemon-garlic.jpg');*/
+    /*background-image: url('https://antoniolatimore.com/img/argentina-prawns-gumbo-20180709_002141.jpg');*/
+    background-image: url('https://antoniolatimore.com/img/homemade-vegetable-soup-with-dungeness-crab-20191010_215511.jpg');
+    width: 100%;
+    background-size: cover;
+}
+
+#boiled-peanuts-page .food .jumbotron {
+    background-image: url('http://antoniolatimore.com/img/boiled-peanuts.jpg');
+    width: 100%;
+    background-size: cover;
+}
+
+#corn-on-the-cob-page .food .jumbotron{
+    background-image: url('http://antoniolatimore.com/img/corn-1200px-w.jpg');
+    width: 100%;
+    background-size: cover;
+}
+
+#food-page .food .jumbotron  {
+    background-image: url('http://antoniolatimore.com/img/beets-knife.jpg');
+    width: 100%;
+    background-size: cover;
+}
+
+/* home page 
+
+body .homepage{
+    background-image: url('http://antoniolatimore.com/img/seard-praws-in-garlic-and-basil.jpg') no-repeat center center fixed!important;
+      -webkit-background-size: cover!important;
+      -moz-background-size: cover!important;
+      -o-background-size: cover!important;
+      background-size: cover!important;
+    }
+
+    */
+
+.homepage .chef,
+.homepage .springretreat,
+.homepage .food {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+}
+
+.homepage .chef {
+    background-image: url('http://antoniolatimore.com/img/antonio-headshot-01.jpg');
+}
+
+.homepage .springretreat {
+    /*background-image: url('http://antoniolatimore.com/img/asparagus-200x200.jpg');*/
+    background-image: url('http://antoniolatimore.com/img/okra-tomatoes-onions-garlic-200px-w.jpg');
+
+}
+
+.homepage .food {
+    background-image: url('http://antoniolatimore.com/img/asparagus-200x200.jpg');
+}
+
+.homepage .row.main-info-section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgba(0, 0, 0, 0.5);
+    color:white;
+    width:100%;
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
+
+
+.homepage .row.main-info-section a.menu-link{
+    width: auto;
+    height: auto;
+    padding: 2px;
+    display: block;
+    margin: 2em;
+    color:white!important;
+}
+.homepage .row.main-info-section a.menu-link span{
+    font-weight: bold;
+
+} 
+.homepage .row.main-info-section a:hover.menu-link{
+    text-decoration: none;
+}
+
+.homepage .row.main-info-section a.menu-link::before{
+content: "";
+color: white;
+font-size: 1em;
+display:block;
+}
+
+.homepage .row.main-info-section a.menu-link.enter-site-arrow.rotated::before{
+    content: "{ Meet The Chef }";
+    color: white;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+}
+
+.homepage .enter-site-arrow.rotated{
+    transform: rotate(0deg);
+
+}
+
+
+
+/* about page */
+
+.about-headshot img,
+.food-image img{
+    border-radius: 100px;
+    border: 1px solid #ccc;
+}
+
+
+/*  food page */
+.food .recipe, .food .food-img{
+  padding:22px;
+}
+
+.food .food-img{
+    padding:5px;
+    width:100%;
+  }
+
+  .food .food-img img{
+    padding:5px;
+    width:100%;
+  }
+
+  /*
+  .food .food-img .food-description{
+    text-transform
+  }
+  */
+
+
+/* contact  */
+.contact-info{
+  padding:22px;
+}
+
+/* includes css */
+
+.recipe-links{
+    display:none;
+}
+/* menus */
+ul.menu-list{
+    padding:0;
+}
+
+.welcome-section-intro{
+    background-color:#555;
+    padding:8px;
+}
+
+

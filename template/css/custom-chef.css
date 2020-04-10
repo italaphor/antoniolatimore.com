@@ -1,0 +1,137 @@
+body {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #888;
+}
+
+.align-left {
+    text-align: left;
+}
+
+
+/*  nav */
+
+.navbar-inverse {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+    background-color: #080808;
+    background: rgba(0, 0, 0, .4);
+}
+
+.navbar-fixed-top {
+    border-width: 0;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #999;
+}
+
+
+/* jumbotron */
+
+.homepage .jumbotron, .foodpage .jumbotron, .aboutpage .jumbotron, .contactpage .jumbotron, .retreatpage .jumbotron, .food .jumbotron {
+    min-height: 400px;
+    max-height: 500px;
+    overflow: hidden;
+    background-position: 95%;
+}
+
+.homepage .jumbotron {
+    background-image: url('http://antoniolatimore.com/img/beets-knife.jpg');
+    width: 100%;
+    background-size: cover;
+}
+
+.foodpage .jumbotron {
+    background-image: url('http://antoniolatimore.com/img/20161101_010748.jpg');
+    width: 100%;
+    background-size: cover;
+}
+
+.aboutpage .jumbotron {
+    background-image: url('http://antoniolatimore.com/img/knife-honer.jpg');
+    width: 100%;
+    background-size: cover;
+}
+
+.contactpage .jumbotron {
+    background-image: url('http://antoniolatimore.com/img/collards-onions.jpg');
+    width: 100%;
+    background-size: cover;
+}
+
+.retreatpage .jumbotron {
+    background-image: url('http://antoniolatimore.com/img/muscels-clams-celery.jpg');
+    width: 100%;
+    background-size: cover;
+}
+
+.food .jumbotron {
+    background-image: url('http://antoniolatimore.com/img/seafood-noodle-soup-20170618_005818.jpg');
+    width: 100%;
+    background-size: cover;
+}
+
+/* home page  */
+
+.homepage .chef,
+.homepage .springretreat,
+.homepage .food {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+}
+
+.homepage .chef {
+    background-image: url('http://antoniolatimore.com/img/antonio-headshot-01.jpg');
+}
+
+.homepage .springretreat {
+    background-image: url('http://antoniolatimore.com/img/asparagus-200x200.jpg');
+}
+
+.homepage .food {
+    background-image: url('http://antoniolatimore.com/img/asparagus-200x200.jpg');
+}
+
+
+/* about page */
+
+.about-headshot img,
+.food-image img{
+    border-radius: 100px;
+    border: 1px solid #ccc;
+}
+
+
+/* @ media  */
+
+@media only screen and (max-width: 1090px) {
+    .homepage .jumbotron, .foodpage .jumbotron, .contactpage .jumbotron {
+        height: 400px;
+        background-position: 95%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .homepage .jumbotron, .foodpage .jumbotron, .contactpage .jumbotron {
+        height: 300px;
+        background-position: 95%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .homepage .jumbotron, .foodpage .jumbotron, .contactpage .jumbotron {
+        height: 250px;
+        background-position: 95%;
+    }
+}

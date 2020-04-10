@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        my html
+    </title>
+</head>
+
+<body>
+    <h1>My JavaScript:</h1>
+
+    <script>
+        // teams
+        var team1 = 'teamJohn';
+        var team2 = 'teamMark';
+        var team3 = 'teamMary';
+        console.log(team1 +',' +  team2 +',' + ' and ' + team3 + ' have good teams.');
+
+        // games played
+        var gamesPlayed = 3;
+        console.log('The have played ' + gamesPlayed + ' games.');
+
+        // game points and average
+        // teamMarkGamePoints has higher average
+        var teamJohnGamePoints = (89 + 120 + 103) / 3;
+        var teamMarkGamePoints = (116 + 94 + 123) / 3;
+        var teamMaryGamePoints = (97 + 134 + 105) / 3;
+
+        /* // generates a tie
+        var teamJohnGamePoints = (105 + 105 + 105) / 3;
+        var teamMarkGamePoints = (105 + 105 + 105) / 3;
+        */
+        console.log(team1 + ' has ' + teamJohnGamePoints + ' average points.');
+        console.log(team2 + ' has ' + teamMarkGamePoints + ' average points.');
+        console.log(team3 + ' has ' + teamMaryGamePoints + ' average points.');
+
+       
+        if(teamJohnGamePoints < teamMarkGamePoints ){
+            console.log(team2 + ' is the Winner');
+        } else if(teamJohnGamePoints === teamMarkGamePoints){
+            console.log(' it\'s a tie')
+        }else{
+            console.log(team1 + ' is the Winner')
+        }
+        
+        // average points
+       
+    </script>
+
+</body>
+
+</html>

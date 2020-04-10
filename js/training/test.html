@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        My Test Page
+    </title>
+    <style>
+        body {
+            text-align: center
+        }
+    </style>
+</head>
+
+<body>
+    <button>PRESS HERE</button>
+
+    <p>Welcome</p>
+
+    <script>
+        const button = document.querySelector('button');
+
+        button.onclick = function () {
+            let name = prompt('What is your name');
+            alert('Hello' + name +',\n Welcome to A Gumbo Life.');
+        }
+    </script>
+
+</body>
+
+</html>

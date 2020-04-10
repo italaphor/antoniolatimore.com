@@ -1,0 +1,16 @@
+body{/*background:#f5f5f5;*/width:100%;margin:0 auto;text-align:center;background:url("http://antoniolatimore.com/images/miconfire-02.png") no-repeat right -48% #000;	}
+#main{padding:3px;display:block;}
+#header{padding:5px;background:#000;text-align:left;border-radius:3px;opacity:0.5}
+.top-text{font-size:70px;color:#fff;text-align:left;}
+.sub-text #name{text-align:right;color:#fff;font-size:50px;font-family:tahoma}
+.sub-text #name span{text-align:right;color:#fff;font-size:44px;}
+
+
+#editorial{border:1px solid #666;border-left:3px solid #999;border-right:3px solid #999;border-radius:5px;margin:22px auto;text-align:left;padding:8px;color:#777;}
+#nav{display:/*block*/none;;text-align:left;}
+#nav #top{}
+#nav #left{}
+#nav #right{}
+#nav #bottom{}
+
+audio{width:85%;margin:6px auto;}

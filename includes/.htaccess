@@ -1,0 +1,8 @@
+rewriteengine on
+rewritecond %{HTTP_HOST} ^antoniolatimore.com$
+rewriterule ^food\.html(.*)$ "http\:\/\/antoniolatimore\.com\/food\.php$1" [R=301,L] #5c5093d9de60f
+rewritecond %{HTTP_HOST} ^antoniolatimore.com$
+rewriterule ^about\.html(.*)$ "http\:\/\/antoniolatimore\.com\/about\.php$1" [R=301,L] #5c50936389cf8
+rewritecond %{HTTP_HOST} ^antoniolatimore.com$
+rewriterule ^home\.html(.*)$ "http\:\/\/antoniolatimore\.com\/home\.php$1" [R=301,L] #5c4b8532c182b
+
