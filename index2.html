@@ -1,0 +1,315 @@
+<html>
+
+<head>
+<title>A Gumbo Life</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+
+/*   cover css */
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #000;
+}
+body {
+  color: #666;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  font-family: 'Open Sans', sans-serif;
+    background: #000;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
+a, a:focus, a:hover{color:blue;}
+
+.heading-subtext{font-size:20px;color:#dedede;}
+#credits a, #credits a:focus, #credits a:hover{color:#999;}
+#credits ul li{font-size:13px;color:#999;}
+.site-wrapper{box-shadow:none;}
+html{background:#000;width:100%;height:100%;font-family:sans-serif;color:#cdcdcd;}
+/*
+html, body {background: url('http://antoniolatimore.com/images/peace-cursive-gray.png') no-repeat;background-size:cover;background-position: center top;}
+html, body {background: url('http://antoniolatimore.com/images/raven.jpg') no-repeat;background-size:cover;background-position: center top;}
+html, body {background: url('http://antoniolatimore.com/images/miles.jpg') no-repeat;background-size:cover;background-position: center top;}
+*/
+
+img{width:100%}
+#sub-header h2{font-weight:normal;}
+.masthead{display:none;}
+.lead a.btn{display:none;}
+.cover-content{text-align:left;}
+.mastfoot{color:#888;}
+.cover-container{background-color:transparent;}
+h1.cover-heading{font-weight:700;color:#cdcdcd}
+.footer{}
+#footer-intro{color:#999;}
+.cover{padding-bottom:13px;}
+h3#title, h4#count{text-align:center;width:100%;}
+h3#title{position: relative;top: 36px;font-size: 12px;color: lavender;}
+h4#count{color:lavender;font-size:55px;}
+hr{height:1px;background-color:#ededed;border:0;}
+#audiofile{text-align:center}
+.inner{padding:0;width:100%}
+
+.hidden{display:none;}
+
+
+</style>
+
+</head>
+<body>
+
+<div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Cover</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="#">Features</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="inner cover">
+		  <div class="header">
+            <h1 class="cover-heading"></h1>
+            <p class="heading-subtext"></p>
+			</div>
+			
+			<div class="section">
+            <div class="lead">
+              <a href="#" class="btn btn-lg btn-default">Learn more</a>
+			  <div class="cover-content">
+			  <!-- <div id="audiofile" class="hidden">
+			 <audio src="http://antoniolatimore.com/podcast/agumbolife-0225-2016-01-pt1.mp3" controls autoplay loop>
+					<p>Your browser does not support the <code>audio</code> element </p>
+			</audio>
+			</div> -->
+			
+			<!-- <div>
+			<p>RAVEN:</p>
+			
+			<p>using a #2 pencil, I like it's versatility </p>
+			</div> -->
+			  
+			  <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/268337596&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+			 
+			  <div class="container">
+			  
+			 <p style="color:white;font-size:13px;">Produced by: <a href="mailto:agumbolife@gmail.com" style="color:white;text-decoration:underline">Antonio Latimore</a></p>
+             <p style="color:white;font-size:13px;">My work on Soundcloud: <a href="https://soundcloud.com/a-gumbo-life/love-bring-love" style="color:white;text-decoration:underline">A Gumbo Life</a></p>
+             
+             
+			  
+			  
+            </div>
+			
+          
+				  </div>
+		  </div>
+		  
+		  </div>
+		  </div>
+	  
+          <div class="footer">
+
+		  
+
+        </div>
+
+      </div>
+
+    </div>
+
+<!-- 
+<div id="header" >
+<h1>A Gumbo Life</h1>
+
+</div>
+
+
+
+<div id="sub-header" >
+<h2>lifes ingredients</h2>
+
+</div>
+<div>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187097561&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+</div>
+<hr />
+<div id="content">
+more content area
+
+</div>
+-->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+
+<html>
