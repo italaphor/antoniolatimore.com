@@ -15,3 +15,5 @@ console.log(game1 + ' game1 points.');
 // game points average
 var gamePointsAverage = (game1 + game2 + game3) / 3;
 console.log(gamePointsAverage + ' average per game');
+
+var newURL = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname + window.location.search
