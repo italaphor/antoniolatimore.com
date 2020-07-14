@@ -20,27 +20,43 @@
     text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, .5);
     box-shadow: none;
 }
+#about,
+#focus,
+#contact{
+  display:none;
+}
     </style>
   </head>
   <body>
     <div id="container" class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <header class="masthead mb-auto">
         <div class="inner">
-          <h3 class="masthead-brand">A | L <br /> <span style="font-size:12px;">Antonio Latimore</span></h3>
+          <h3 class="masthead-brand">A|L  <span style="font-size:12px;">Antonio Latimore</span></h3>
           <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link active" href="#home">Home</a>
-            <a class="nav-link" href="#about">About</a>
-            <a class="nav-link" href="#focus">Focus</a>
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link active" href="#home" onclick="myFunction()">Home</a>
+            <a class="nav-link" href="#" onclick="myFunction()">About</a>
+            <a class="nav-link" href="#focus" onclick="myFunction()">Focus</a>
+            <a class="nav-link" href="#contact" onclick="myFunction()">Contact</a>
           </nav>
         </div>
+        <script>
+          function myFunction() {
+  var x = document.getElementById("about");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+        </script>
       </header>
       <!-- Main page / Home -->
       <main role="main" class="inner cover" id="home">
         <h1 class="cover-heading">what are you doing with your life?</h1>
-        <p class="lead">I advocate for young people looking for positive direction.</p>
+        <p class="lead" style="display:none">I advocate for young people looking for positive direction.</p>
+        <p class="lead" style="display:none">Advocating for young adults.</p>
         <p class="lead">
-          <a href="#about" class="btn btn-lg btn-secondary">Learn more</a>
+          <a href="#about" class="btn btn-lg btn-secondary">Learn More</a>
         </p>
       </main>
 
@@ -68,11 +84,11 @@
 
       <footer class="mastfoot mt-auto">
         <div class="inner">
-          <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+          <p>antoniolatimore.com<a href="#">&nbsp;A Gumbo Life Production</a></p>
         </div>
       </footer>
     </div>
-    <script src="js/javascript.js"></script>
+    <!-- <script src="js/javascript.js"></script> -->
     <!-- bootstrap js -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
