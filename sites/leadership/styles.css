@@ -23,3 +23,14 @@ body, html {
 .display-none{
     display:none;
 }
+
+.btn-bg-black--border-white{
+  border:1px solid #ffffff;
+      background-color: #000000;
+      align-content: center;
+      padding: 8px 16px;
+      margin: 3px;
+      text-decoration: none;
+      font-weight:normal;
+      border-radius:4px;
+}
