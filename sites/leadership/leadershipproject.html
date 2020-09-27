@@ -17,10 +17,14 @@
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
-      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+      <!--
+        <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
       <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
       <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
+      -->
       <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+      
+      
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
@@ -34,9 +38,11 @@
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">X</a>
   <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
-  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <!-- 
+    <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
   <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
   <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+  -->
   <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
 </nav>
 
@@ -64,31 +70,39 @@
 </header>
 
 <!-- About Section -->
-<div class="w3-container" style="padding:128px 16px" id="about">
+<div class="w3-container" style="padding:128px 16px;" id="about">
   <h2>ABOUT</h2>
   <p class="w3-large">Welcome</p>
   <div class="w3-row-padding ">
     <div class="w3-large">
-    <p> I am Antonio Latimore. I Lead, Mentor and Advocate for Black Men seeking positive 
-      direction.</p> 
+    <p>I help develope young black men seeking positive direction in the effort to detour the rate of
+      incarceration due to unforeseen circumstances</p> 
 
-    <p>I believe lifes experience provides an opportunity to give back and be a part of the solution for the challanges
-       that young Black Men face as they navigate through life.</p>
-
-       <p>
-        Situations differ. There is know one size fits all solution. Listening, understanding, guiding and supporting plays a critical role in positive direction.
-       </p>
-
-       <p>It takes dedication and the will from all involved to make a better way.</p>
+    <p>I believe lifes experience provides an opportunity to give back and be a part of the solution throughout the challanges
+       that young Black Men face in life.</p>
 
        <p>
-         Among many topics; here are some that I discuss.
-       </p>
+       Listening guiding and supporting is critical. And It takes dedication and will to achieve goals.
+      </p>
 
-    <p>
-      <h3>Self Awareness</h3>
-       Understanding ones self in character, feelings, motives, etcetera.
-    </p>
+       <p>
+        Through discussion I explore many areas that help build a solid foundation. Here are a few.
+      </p>
+       
+       <p>
+        <h3>Self Awareness</h3>
+         Understanding ones self in character, feelings, motives.
+      </p>
+      <p>
+        <h3>Accountability</h3>
+        The obligation or willingness to accept responsibility or to account for one's actions.
+      </p>
+
+      <p>
+        <h3>Reliabilaty</h3>
+        The ability to be relied on or depended on, as for accuracy, honesty, or achievement.
+      
+      </p>
 
     <p>
       <h3>Health and Wellness</h3>
@@ -96,7 +110,7 @@
     </p>
 
       <p>
-        <h3>Actions, Responsibilities and Consequence</h3>
+        <h3>Actions and Consequence</h3>
         What to do? Why do it? What is the result?
       </p>
       
@@ -108,7 +122,7 @@
 </div>
 
 <!-- Promo Section - "We know design" -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px">
+<div class="w3-container w3-light-grey display-none" style="padding:128px 16px">
   <div class="w3-row-padding">
     <div class="w3-col m6">
       <h2>We know design.</h2>
@@ -122,7 +136,7 @@
 </div>
 
 <!-- Team Section -->
-<div class="w3-container" style="padding:128px 16px" id="team">
+<div class="w3-container display-none" style="padding:128px 16px" id="team">
   <h2 class="">THE TEAM</h2>
   <p class="w3-large">The ones who runs this company</p>
   <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
@@ -174,7 +188,7 @@
 </div>
 
 <!-- Promo Section "Statistics" -->
-<div class="w3-container w3-row  w3-dark-grey w3-padding-64">
+<div class="w3-container w3-row  w3-dark-grey w3-padding-64 display-none">
   <div class="w3-quarter">
     <span class="w3-xxlarge">14+</span>
     <br>Partners
@@ -194,7 +208,7 @@
 </div>
 
 <!-- Work Section -->
-<div class="w3-container" style="padding:128px 16px" id="work">
+<div class="w3-container display-none" style="padding:128px 16px" id="work">
   <h2 class="">OUR WORK</h2>
   <p class="w3-large">What we've done for people</p>
 
@@ -239,7 +253,7 @@
 </div>
 
 <!-- Skills Section -->
-<div class="w3-container w3-light-grey w3-padding-64">
+<div class="w3-container w3-light-grey w3-padding-64 display-none">
   <div class="w3-row-padding">
     <div class="w3-col m6">
       <h2>Our Skills.</h2>
@@ -266,7 +280,7 @@
 </div>
 
 <!-- Pricing Section -->
-<div class="w3-container  w3-dark-grey" style="padding:128px 16px" id="pricing">
+<div class="w3-container  w3-dark-grey display-none" style="padding:128px 16px" id="pricing">
   <h2>PRICING</h2>
   <p class="w3-large">Choose a pricing plan that fits your needs.</p>
   <div class="w3-row-padding" style="margin-top:64px">
