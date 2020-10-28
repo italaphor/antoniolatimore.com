@@ -26,11 +26,13 @@ body, html {
 
 .btn-bg-black--border-white{
   border:1px solid #ffffff;
-      background-color: #000000;
-      align-content: center;
-      padding: 8px 16px;
-      margin: 3px;
-      text-decoration: none;
-      font-weight:normal;
-      border-radius:4px;
+  background-color: #000000;
+  align-content: center;
+  padding: 8px 16px;
+  margin: 3px;
+  text-decoration: none;
+  font-weight:normal;
+  text-transform: uppercase;
+  border-radius:4px;
+  font-size: .8em;
 }
